@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="MUDMEE MODERN — ผ้าไหมมัดหมี่ขอนแก่น ภูมิปัญญาไทยในดีไซน์ร่วมสมัย">
+<title>MUDMEE MODERN | ภูมิปัญญาไหมมัดหมี่ สู่แฟชั่นร่วมสมัย</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&family=Noto+Serif+Thai:wght@300;400;500;600;700&display=swap');
+:root{--ink:#29251f;--cream:#f7f2e8;--paper:#fffdf8;--rust:#9e4f35;--gold:#b58a4b;--olive:#687052;--line:#ded3c1}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:'Kanit',sans-serif;font-weight:300;line-height:1.8}a{color:inherit;text-decoration:none}.serif{font-family:'Noto Serif Thai',serif}.topbar{background:var(--ink);color:#f9f0df;text-align:center;padding:7px 16px;font-size:.78rem;letter-spacing:.08em}.nav{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:20px clamp(20px,6vw,90px);background:rgba(247,242,232,.94);position:sticky;top:0;z-index:5;border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}.logo{font-family:'Noto Serif Thai',serif;font-size:1.25rem;letter-spacing:.12em;font-weight:600}.logo span{display:block;font-family:'Kanit',sans-serif;font-size:.62rem;letter-spacing:.22em;color:var(--rust);font-weight:400}.navlinks{display:flex;gap:22px;flex-wrap:wrap;font-size:.88rem}.navlinks a:hover{color:var(--rust)}.hero{min-height:620px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;padding:65px clamp(20px,8vw,120px);gap:50px;overflow:hidden;background:radial-gradient(ellipse at 82% 38%,#e7d4b5 0,transparent 40%),var(--cream)}.eyebrow{color:var(--rust);letter-spacing:.18em;text-transform:uppercase;font-size:.78rem;font-weight:500}.hero h1{font-family:'Noto Serif Thai',serif;font-size:clamp(2.5rem,5vw,4.8rem);line-height:1.28;font-weight:500;margin:16px 0 22px}.hero h1 em{font-style:normal;color:var(--rust)}.hero p{max-width:550px;color:#625a4e;font-size:1.05rem}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-block;padding:12px 22px;border:1px solid var(--ink);font-size:.9rem;transition:.2s}.btn.primary{background:var(--ink);color:#fff8ec}.btn:hover{transform:translateY(-2px);background:var(--rust);border-color:var(--rust);color:white}.hero-art{position:relative;min-height:460px;display:flex;align-items:center;justify-content:center}.fabric{width:min(100%,450px);height:430px;position:relative;overflow:hidden;transform:rotate(3deg);box-shadow:18px 22px 0 #d9c5a4;background-color:#8e3e31;background-image:repeating-linear-gradient(45deg,transparent 0 14px,rgba(244,218,166,.5) 14px 17px,transparent 17px 30px),repeating-linear-gradient(-45deg,transparent 0 14px,rgba(244,218,166,.38) 14px 17px,transparent 17px 30px),linear-gradient(90deg,#77372c,#a8533c 48%,#7f3a2f)}.fabric:before{content:"";position:absolute;inset:18px;border:1px solid rgba(255,232,188,.75);background:repeating-linear-gradient(0deg,transparent 0 44px,rgba(255,230,180,.5) 44px 46px),repeating-linear-gradient(90deg,transparent 0 44px,rgba(255,230,180,.5) 44px 46px);mix-blend-mode:screen}.fabric:after{content:"✦  ✧  ✦  ✧  ✦";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#f4d9a1;font-size:2rem;letter-spacing:.6rem;text-shadow:0 0 1px #6e2e23;writing-mode:vertical-rl}.art-label{position:absolute;bottom:8px;left:0;background:var(--paper);padding:14px 20px;box-shadow:0 8px 28px #6a4a2c1c;font-size:.8rem;letter-spacing:.08em}.section{padding:90px clamp(20px,8vw,120px)}.section.white{background:var(--paper)}.section-head{max-width:700px;margin-bottom:38px}.section h2{font-family:'Noto Serif Thai',serif;font-size:clamp(1.8rem,3vw,2.8rem);font-weight:500;line-height:1.4;margin:8px 0 16px}.section-head p{color:#71685b}.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.quote{font-family:'Noto Serif Thai',serif;font-size:1.4rem;line-height:1.8;border-left:3px solid var(--gold);padding:8px 0 8px 25px}.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:25px}.stat{border-top:1px solid var(--line);padding-top:12px}.stat strong{display:block;color:var(--rust);font-family:'Noto Serif Thai',serif;font-size:1.1rem}.stat span{font-size:.82rem;color:#756c60}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--cream);padding:26px;border:1px solid #e9dfcf}.card .num{font-family:'Noto Serif Thai',serif;color:var(--rust);font-size:1.5rem}.card h3{font-family:'Noto Serif Thai',serif;font-weight:500;font-size:1.15rem;margin:8px 0}.card p{font-size:.92rem;color:#6e665a;margin-bottom:0}.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.product{background:var(--cream);padding:14px 14px 22px}.product-visual{height:260px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;background:#e8dcc7}.product-visual img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .45s ease}.product:hover .product-visual img{transform:scale(1.04)}.product h3{font-family:'Noto Serif Thai',serif;font-size:1.1rem;font-weight:500;margin:16px 4px 4px}.product p{font-size:.88rem;color:#70675b;margin:0 4px}.note{font-size:.8rem;color:#85796a;margin-top:20px}.process{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.step{padding:25px 22px 25px 0;position:relative}.step:not(:last-child):after{content:"→";position:absolute;right:15px;top:24px;color:var(--gold);font-size:1.2rem}.step b{display:block;color:var(--rust);font-size:.78rem;letter-spacing:.1em}.step h3{font-family:'Noto Serif Thai',serif;font-weight:500;font-size:1.05rem}.step p{font-size:.86rem;color:#70675b}.impact-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.impact{padding:22px 18px;border:1px solid var(--line);background:#faf6ed}.impact .icon{font-size:1.6rem}.impact h3{font-family:'Noto Serif Thai',serif;font-weight:500;margin:8px 0}.impact p{font-size:.88rem;color:#70675b}.brand-panel{background:var(--ink);color:#f8f0e2;padding:60px clamp(24px,8vw,110px);display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}.brand-panel h2{font-family:'Noto Serif Thai',serif;font-weight:400;font-size:clamp(1.8rem,3vw,2.8rem);line-height:1.5}.brand-panel p{color:#d5c7b1}.pill{display:inline-block;border:1px solid #b58a4b;padding:7px 12px;margin:5px 5px 0 0;font-size:.8rem;color:#e5c995}.references{font-size:.88rem;color:#71685b}.references li{margin:9px 0;overflow-wrap:anywhere}.references a{text-decoration:underline;text-decoration-color:#b58a4b;text-underline-offset:3px}.footer{background:#211e19;color:#d9cbb5;padding:35px clamp(20px,8vw,120px);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:.82rem}.footer strong{font-family:'Noto Serif Thai',serif;letter-spacing:.1em;color:#fff4e2}.backtop{position:fixed;bottom:18px;right:18px;background:var(--rust);color:white;width:42px;height:42px;display:grid;place-items:center;border-radius:50%;box-shadow:0 5px 18px #0002}
+@media(max-width:800px){.nav{align-items:flex-start;flex-direction:column;gap:10px}.navlinks{gap:13px;font-size:.8rem}.hero{grid-template-columns:1fr;padding-top:55px;gap:25px}.hero-art{min-height:350px}.fabric{height:330px;width:300px}.intro-grid,.brand-panel{grid-template-columns:1fr}.cards,.product-grid{grid-template-columns:1fr 1fr}.impact-grid{grid-template-columns:1fr 1fr}.process{grid-template-columns:1fr 1fr}.step:nth-child(2):after{display:none}.section{padding-top:65px;padding-bottom:65px}}
+@media(max-width:480px){.cards,.product-grid{grid-template-columns:1fr}.stat-grid{grid-template-columns:1fr}.hero h1{font-size:2.45rem}.hero-art{min-height:310px}.fabric{height:285px;width:250px}.impact-grid{grid-template-columns:1fr 1fr}.process{grid-template-columns:1fr}.step:after{display:none!important}.navlinks{gap:10px}.section{padding-left:20px;padding-right:20px}}
+</style>
+</head>
+<body>
+<div class="topbar">LOCAL WISDOM · CONTEMPORARY DESIGN · MADE WITH COMMUNITY</div>
+<nav class="nav">
+  <a class="logo" href="#home">MUDMEE MODERN<span>KHON KAEN · THAILAND</span></a>
+  <div class="navlinks"><a href="#story">เรื่องราว</a><a href="#identity">คุณค่า</a><a href="#collection">คอลเลกชัน</a><a href="#community">เพื่อชุมชน</a><a href="#sustainability">ความยั่งยืน</a><a href="#references">อ้างอิง</a></div>
+</nav>
+<main>
+<section class="hero" id="home">
+ <div>
+  <div class="eyebrow">The art of Isan, reimagined</div>
+  <h1>เสน่ห์ผ้าไทย<br><em>ในแบบของคุณ</em></h1>
+  <p>MUDMEE MODERN นำภูมิปัญญาผ้าไหมมัดหมี่จังหวัดขอนแก่น มาตีความใหม่ผ่านแฟชั่นร่วมสมัย เพื่อให้เรื่องราวจากชุมชนเดินทางต่อไปในชีวิตประจำวันของคนรุ่นใหม่</p>
+  <div class="actions"><a class="btn primary" href="#story">ค้นพบเรื่องราวของเรา ↗</a><a class="btn" href="#collection">สำรวจไอเดียสินค้า</a></div>
+ </div>
+ <div class="hero-art" aria-label="ภาพกราฟิกผ้าทอลายมัดหมี่โทนแดงทอง">
+  <div class="fabric"></div><div class="art-label">HANDCRAFTED HERITAGE · KHON KAEN</div>
+ </div>
+</section>
+<section class="section white" id="story">
+ <div class="intro-grid">
+  <div>
+   <div class="eyebrow">01 / Local story</div>
+   <h2>ทุกเส้นไหม<br>มีเรื่องราวของผู้คน</h2>
+   <p>ผ้าไหมมัดหมี่ขอนแก่นโดดเด่นด้วยกระบวนการมัดเส้นไหมก่อนย้อมสี แล้วจึงนำไปทอให้เกิดลวดลายอันมีเอกลักษณ์ งานแต่ละผืนสะท้อนทักษะ ความประณีต และองค์ความรู้ที่สืบทอดกันในชุมชน</p>
+   <p>ผ้าไหมจึงไม่ได้เป็นเพียงวัสดุสำหรับตัดเย็บ แต่ยังเชื่อมโยงกับวิถีชีวิต วัฒนธรรม และโอกาสทางเศรษฐกิจของผู้ผลิตในท้องถิ่น</p>
+  </div>
+  <div>
+   <div class="quote">“สืบสานภูมิปัญญาไทย<br>ใส่ความเป็นตัวเองไปกับผ้าไหมมัดหมี่”</div>
+   <div class="stat-grid"><div class="stat"><strong>ภูมิปัญญา</strong><span>ทักษะที่ส่งต่อระหว่างรุ่น</span></div><div class="stat"><strong>อัตลักษณ์</strong><span>ลวดลายและงานฝีมือ</span></div><div class="stat"><strong>โอกาสใหม่</strong><span>ต่อยอดสู่แฟชั่นร่วมสมัย</span></div></div>
+  </div>
+ </div>
+</section>
+<section class="section" id="identity">
+ <div class="section-head"><div class="eyebrow">02 / Identity & value</div><h2>คุณค่าที่มากกว่าความงาม</h2><p>การพัฒนาสินค้าควรเริ่มจากความเข้าใจในที่มา เคารพผู้สร้างสรรค์ และทำให้คุณค่าของผ้าไหมเข้าถึงผู้คนได้หลากหลายขึ้น</p></div>
+ <div class="cards">
+  <article class="card"><div class="num">01</div><h3>ภูมิปัญญา</h3><p>สะท้อนความรู้และทักษะของช่างทอ ตั้งแต่การเตรียมเส้นไหม มัดลาย ย้อมสี จนถึงการทอเป็นผืนผ้า</p></article>
+  <article class="card"><div class="num">02</div><h3>วัฒนธรรม</h3><p>เป็นงานหัตถกรรมที่เชื่อมโยงกับอัตลักษณ์ท้องถิ่น วิถีชีวิต และการสืบทอดความรู้ในชุมชน</p></article>
+  <article class="card"><div class="num">03</div><h3>ความคิดสร้างสรรค์</h3><p>นำลวดลายและผืนผ้ามาออกแบบใหม่ให้เหมาะกับการใช้งานและรสนิยมร่วมสมัย</p></article>
+  <article class="card"><div class="num">04</div><h3>เศรษฐกิจชุมชน</h3><p>สร้างโอกาสให้ช่างทอ ผู้ตัดเย็บ และผู้ประกอบการท้องถิ่นมีช่องทางเข้าถึงลูกค้ามากขึ้น</p></article>
+  <article class="card"><div class="num">05</div><h3>การเรียนรู้ระหว่างรุ่น</h3><p>เปิดพื้นที่ให้คนรุ่นใหม่เรียนรู้เบื้องหลังงานฝีมือและร่วมสืบสานภูมิปัญญา</p></article>
+  <article class="card"><div class="num">06</div><h3>อัตลักษณ์ขอนแก่น</h3><p>เล่าเรื่องแหล่งผลิตและผู้สร้างสรรค์อย่างมีที่มา โดยตรวจสอบข้อมูลก่อนเผยแพร่เสมอ</p></article>
+ </div>
+</section>
+<section class="section white" id="collection">
+ <div class="section-head"><div class="eyebrow">03 / Contemporary collection</div><h2>ผ้าไหมมัดหมี่ ในชีวิตประจำวัน</h2><p>แนวคิดสินค้าต้นแบบที่ผสมผสานลายผ้าดั้งเดิมกับรูปทรงเรียบง่ายและใช้งานได้จริง</p></div>
+ <div class="product-grid">
+  <article class="product"><div class="product-visual"><img src="images/everyday-jacket.jpg" alt="แจ็กเก็ตผ้าไหมมัดหมี่สีฟ้าลายดั้งเดิม ดีไซน์ร่วมสมัย" loading="lazy"></div><h3>01 — Everyday Jacket</h3><p>แจ็กเก็ตผ้าไหมมัดหมี่ เพิ่มสีสันให้ลุคเรียบง่าย</p></article>
+  <article class="product"><div class="product-visual"><img src="images/crafted-bag.jpg" alt="กระเป๋าถือผ้าไหมมัดหมี่สีน้ำเงิน ตกแต่งอะไหล่สีทอง" loading="lazy"></div><h3>02 — Crafted Bag</h3><p>กระเป๋าดีไซน์ร่วมสมัยที่พกพาได้ทุกวัน</p></article>
+  <article class="product"><div class="product-visual"><img src="images/signature-scarf.jpg" alt="ผ้าพันคอไหมมัดหมี่สีฟ้า ลายละเอียดแบบอีสาน" loading="lazy"></div><h3>03 — Signature Scarf</h3><p>ผ้าพันคอที่ให้ลวดลายและสีสันเป็นจุดเด่น</p></article>
+ </div>
+ <p class="note">หมายเหตุ: ภาพสินค้าเป็นภาพแนวคิดเพื่อประกอบการนำเสนอ ไม่ใช่การยืนยันว่ามีสินค้าจำหน่ายจริง และยังไม่มีการยืนยันราคา</p>
+</section>
+<section class="section" id="community">
+ <div class="section-head"><div class="eyebrow">04 / Value back to community</div><h2>เติบโตไปพร้อมกับชุมชน</h2><p>MUDMEE MODERN ตั้งใจให้การต่อยอดเชิงธุรกิจเกิดขึ้นควบคู่กับการให้เครดิต การมีส่วนร่วม และค่าตอบแทนที่เป็นธรรมแก่ผู้ผลิต</p></div>
+ <div class="process">
+  <div class="step"><b>STEP 01</b><h3>ร่วมคิดกับช่างทอ</h3><p>รับฟังผู้รู้ในพื้นที่และตรวจสอบที่มาของลวดลายก่อนนำไปใช้</p></div>
+  <div class="step"><b>STEP 02</b><h3>ออกแบบอย่างเคารพ</h3><p>พัฒนารูปแบบร่วมสมัยโดยไม่บิดเบือนความหมายทางวัฒนธรรม</p></div>
+  <div class="step"><b>STEP 03</b><h3>สร้างช่องทางตลาด</h3><p>ใช้สื่อออนไลน์ เว็บไซต์ และงานแสดงสินค้าเพื่อเพิ่มโอกาสเข้าถึงลูกค้า</p></div>
+  <div class="step"><b>STEP 04</b><h3>คืนประโยชน์สู่ผู้ผลิต</h3><p>ตกลงราคาและค่าตอบแทนอย่างเป็นธรรม พร้อมติดตามผลจากข้อมูลจริง</p></div>
+ </div>
+ <div class="actions"><a class="btn primary" href="#sustainability">ดูแนวทางความยั่งยืน ↗</a></div>
+</section>
+<section class="brand-panel">
+ <div><div class="eyebrow" style="color:#d7b77c">Our brand philosophy</div><h2>ของดีท้องถิ่น<br>ไม่จำเป็นต้องอยู่แค่ในอดีต</h2><p>เราเชื่อว่าภูมิปัญญาจะเติบโตได้ เมื่อได้รับการดูแลอย่างเข้าใจและเปิดโอกาสให้คนรุ่นใหม่มีส่วนร่วม</p></div>
+ <div><span class="pill">Local Wisdom</span><span class="pill">Modern Design</span><span class="pill">Fair Partnership</span><span class="pill">Responsible Fashion</span><p style="margin-top:20px">ช่องทางที่วางแผนไว้: TikTok · Instagram · Facebook · Shopee · ร้านค้าชุมชน · งานแสดงสินค้า</p></div>
+</section>
+<section class="section white" id="sustainability">
+ <div class="section-head"><div class="eyebrow">05 / Sustainability</div><h2>แฟชั่นที่คิดถึงวันข้างหน้า</h2><p>แนวทางของโครงการเชื่อมโยงกับเป้าหมายการพัฒนาที่ยั่งยืน (SDGs) โดยผลลัพธ์จริงควรประเมินจากการดำเนินงานและข้อมูลที่ตรวจสอบได้</p></div>
+ <div class="impact-grid">
+  <article class="impact"><div class="icon">✦</div><h3>SDG 1</h3><p><b>ขจัดความยากจน</b><br>มุ่งเพิ่มโอกาสสร้างรายได้แก่ครัวเรือนและผู้ผลิตในชุมชน</p></article>
+  <article class="impact"><div class="icon">↗</div><h3>SDG 8</h3><p><b>งานที่มีคุณค่า</b><br>สนับสนุนการจ้างงานและค่าตอบแทนที่เป็นธรรม</p></article>
+  <article class="impact"><div class="icon">⌘</div><h3>SDG 9</h3><p><b>นวัตกรรม</b><br>ผสานทักษะหัตถกรรมกับการออกแบบสินค้าใหม่</p></article>
+  <article class="impact"><div class="icon">⌂</div><h3>SDG 11</h3><p><b>ชุมชนยั่งยืน</b><br>ช่วยสืบสานและเผยแพร่มรดกทางวัฒนธรรม</p></article>
+  <article class="impact"><div class="icon">♻</div><h3>SDG 12</h3><p><b>ผลิตและบริโภครับผิดชอบ</b><br>ใช้วัสดุอย่างคุ้มค่าและวางแผนลดเศษผ้า</p></article>
+ </div>
+ <p class="note">แนวทางด้านสิ่งแวดล้อม เช่น การใช้สีย้อมธรรมชาติและการลดของเสีย ต้องพิจารณาการใช้น้ำ การจัดการน้ำย้อม และการบำบัดน้ำเสียร่วมด้วย ไม่ควรกล่าวอ้างว่าปลอดผลกระทบหากไม่มีผลตรวจวัดรองรับ</p>
+</section>
+<section class="section" id="references">
+ <div class="section-head"><div class="eyebrow">06 / References & credits</div><h2>เรียนรู้จากแหล่งข้อมูล</h2><p>แหล่งข้อมูลประกอบการศึกษาเรื่องผ้าไหมมัดหมี่ขอนแก่น ภูมิปัญญาท้องถิ่น และการพัฒนาที่ยั่งยืน</p></div>
+ <ol class="references">
+  <li>สำนักงานประชาสัมพันธ์จังหวัดขอนแก่น. “ผ้าไหมบ้านหัวฝาย.” <a href="https://khonkaen.prd.go.th/th/content/category/detail/id/158/iid/165898" target="_blank" rel="noopener">อ่านข้อมูล ↗</a></li>
+  <li>สำนักงานกองทุนสนับสนุนวิทยาศาสตร์ วิจัยและนวัตกรรม. รายงานกรณีศึกษาการทอผ้าไหมบ้านหัวฝาย อำเภอชนบท จังหวัดขอนแก่น. <a href="https://elibrary.tsri.or.th/fullP/RDG59E0032/RDG59E0032_full.pdf" target="_blank" rel="noopener">อ่านรายงาน ↗</a></li>
+  <li>กรมทรัพย์สินทางปัญญา. ข้อมูลสิ่งบ่งชี้ทางภูมิศาสตร์ผ้าไหมมัดหมี่ชนบท. <a href="https://www.ipthailand.go.th/images/3534/2565/GI/G120220131.pdf" target="_blank" rel="noopener">อ่านเอกสาร ↗</a></li>
+  <li>กรมหม่อนไหม. ข้อมูลผ้าไหมจังหวัดขอนแก่น. <a href="https://qsds.go.th/newqsiscent/ผ้าไหมจังหวัดขอนแก่น/" target="_blank" rel="noopener">อ่านข้อมูล ↗</a></li>
+  <li>กรมการพัฒนาชุมชน. OTOP BIG DATA. <a href="https://otop.cdd.go.th/" target="_blank" rel="noopener">เข้าสู่เว็บไซต์ ↗</a></li>
+  <li>United Nations. Sustainable Development Goals. <a href="https://sdgs.un.org/goals" target="_blank" rel="noopener">อ่านข้อมูล ↗</a></li>
+ </ol>
+ <p class="note">เครดิตและการเปิดเผยการใช้ AI: เว็บไซต์นี้จัดทำเป็นต้นแบบจากข้อมูลที่ผู้จัดทำรวบรวมและเรียบเรียง โดยใช้ AI ช่วยจัดโครงสร้างและออกแบบหน้าเว็บ ควรตรวจสอบรายละเอียด แหล่งอ้างอิง และสิทธิ์การใช้ภาพก่อนเผยแพร่จริง ภาพลายผ้าในหน้านี้เป็นกราฟิกที่สร้างด้วย CSS</p>
+</section>
+</main>
+<footer class="footer"><div><strong>MUDMEE MODERN</strong><div>สืบสานภูมิปัญญาไทย ใส่ความเป็นตัวเองไปกับผ้าไหมมัดหมี่</div></div><div>Khon Kaen, Thailand · Concept website</div></footer>
+<a class="backtop" href="#home" aria-label="กลับขึ้นด้านบน">↑</a>
+</body>
+</html>
